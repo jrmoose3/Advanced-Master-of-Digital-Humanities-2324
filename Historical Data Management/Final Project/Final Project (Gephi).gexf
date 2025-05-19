@@ -1,0 +1,1237 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2023-12-17">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="indegree" title="In-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="premier" title="Premier" type="string"/>
+      <attribute id="cabinet life" title="Cabinet Life" type="integer"/>
+      <attribute id="outdegree" title="Out-Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="weighted indegree" title="Weighted In-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted outdegree" title="Weighted Out-Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="authority" title="Authority" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="hub" title="Hub" type="float">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="stat_inf_class" title="Inferred Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="CDA/KVP/ARP">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="27"/>
+          <attvalue for="degree" value="27"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="1236.0"/>
+          <attvalue for="weighted degree" value="1236.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.7000774"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="100.0"/>
+        <viz:position x="1.2630954" y="15.276998"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="2" label="PvdA/VDB">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="13"/>
+          <attvalue for="degree" value="13"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="495.0"/>
+          <attvalue for="weighted degree" value="495.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.31727508"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="46.692307"/>
+        <viz:position x="-199.22697" y="122.78961"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="3" label="CHU">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="10"/>
+          <attvalue for="degree" value="10"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="110.0"/>
+          <attvalue for="weighted degree" value="110.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.29961118"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="35.26923"/>
+        <viz:position x="-28.917915" y="257.27045"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="4" label="VVD">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="19"/>
+          <attvalue for="degree" value="19"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="478.0"/>
+          <attvalue for="weighted degree" value="478.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.52110565"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="69.53846"/>
+        <viz:position x="97.30857" y="-181.32227"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="5" label="DS'70">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="8.0"/>
+          <attvalue for="weighted degree" value="8.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.031112168"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="1.0"/>
+        <viz:position x="-127.53889" y="-462.5534"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="6" label="PPR">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="7.0"/>
+          <attvalue for="weighted degree" value="7.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.024850542"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="1.0"/>
+        <viz:position x="-667.0776" y="-178.22325"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="7" label="D66">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="8"/>
+          <attvalue for="degree" value="8"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="127.0"/>
+          <attvalue for="weighted degree" value="127.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.19733423"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="27.653847"/>
+        <viz:position x="261.43204" y="-43.89351"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="8" label="LPF">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="1"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="26.0"/>
+          <attvalue for="weighted degree" value="26.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.024982862"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="1.0"/>
+        <viz:position x="-401.5325" y="-545.7533"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="9" label="ChristenUnie">
+        <attvalues>
+          <attvalue for="type" value="Political_Party"/>
+          <attvalue for="indegree" value="0"/>
+          <attvalue for="premier" value=""/>
+          <attvalue for="outdegree" value="3"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="0.0"/>
+          <attvalue for="weighted outdegree" value="16.0"/>
+          <attvalue for="weighted degree" value="16.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="eccentricity" value="1.0"/>
+          <attvalue for="closnesscentrality" value="1.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0"/>
+          <attvalue for="hub" value="0.08221764"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.615385"/>
+        <viz:position x="490.34796" y="478.49597"/>
+        <viz:color r="95" g="165" b="253"/>
+      </node>
+      <node id="10" label="Beel I">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Louis Beel"/>
+          <attvalue for="cabinet life" value="766"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="61.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="61.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.14404911"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="38.19857"/>
+        <viz:position x="-466.2351" y="-109.81319"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="11" label="Drees-Van Schaik">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="premier" value="Willem Drees"/>
+          <attvalue for="cabinet life" value="950"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="76.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="76.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.2602531"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="49.028538"/>
+        <viz:position x="-102.79017" y="-247.3576"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="12" label="Drees I">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="premier" value="Willem Drees"/>
+          <attvalue for="cabinet life" value="537"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="76.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="76.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.2602531"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="24.719976"/>
+        <viz:position x="-432.69424" y="125.84477"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="13" label="Drees II">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Willem Drees"/>
+          <attvalue for="cabinet life" value="1502"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="81.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="81.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.18647029"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="81.51843"/>
+        <viz:position x="-505.1948" y="448.46704"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="14" label="Drees III">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Willem Drees"/>
+          <attvalue for="cabinet life" value="800"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="127.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="127.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.18647029"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="40.199764"/>
+        <viz:position x="186.34047" y="172.70625"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="15" label="Beel II">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Louis Beel"/>
+          <attvalue for="cabinet life" value="148"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="77.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="77.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.14154547"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="1.824019"/>
+        <viz:position x="-251.11429" y="-86.55093"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="16" label="The Quay">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Jan de Quay"/>
+          <attvalue for="cabinet life" value="1527"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="94.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="94.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.21532829"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="82.98989"/>
+        <viz:position x="302.82703" y="597.0311"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="17" label="Marijnen">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Victor Marijnen"/>
+          <attvalue for="cabinet life" value="630"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="92.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="92.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.21532829"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="30.193817"/>
+        <viz:position x="-613.5787" y="264.95517"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="18" label="Cals">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Jo Cals"/>
+          <attvalue for="cabinet life" value="587"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="106.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="106.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.14404911"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="27.662903"/>
+        <viz:position x="-331.9968" y="582.1385"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="19" label="Zijlstra">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="1"/>
+          <attvalue for="premier" value="Jelle Zijlstra"/>
+          <attvalue for="cabinet life" value="134"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="1"/>
+          <attvalue for="weighted indegree" value="63.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="63.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.0991243"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="1.0"/>
+        <viz:position x="673.6317" y="70.2865"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="20" label="De Jong">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Piet de Jong"/>
+          <attvalue for="cabinet life" value="1553"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="86.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="86.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.21532829"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="84.52022"/>
+        <viz:position x="108.22352" y="-427.10046"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="21" label="Biesheuvel I">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="premier" value="Barend Biesheuvel"/>
+          <attvalue for="cabinet life" value="400"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="82.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="82.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.2197333"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="16.65636"/>
+        <viz:position x="-332.03418" y="-320.92303"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="22" label="Biesheuvel II">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Barend Biesheuvel"/>
+          <attvalue for="cabinet life" value="275"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="74.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="74.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.21532829"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="9.299049"/>
+        <viz:position x="93.40368" y="661.16736"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="23" label="Den Uyl">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="premier" value="Joop den Uyl"/>
+          <attvalue for="cabinet life" value="1683"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="97.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="97.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.17550984"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="92.17182"/>
+        <viz:position x="-310.1372" y="329.60712"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="24" label="Van Agt I">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Dries van Agt"/>
+          <attvalue for="cabinet life" value="1362"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="77.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="77.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.17290711"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="73.27824"/>
+        <viz:position x="347.67776" y="315.99182"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="25" label="Van Agt II">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Dries van Agt"/>
+          <attvalue for="cabinet life" value="260"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="109.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="109.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.17199095"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="8.416171"/>
+        <viz:position x="26.968084" y="-663.69073"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="26" label="Van Agt III">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Dries van Agt"/>
+          <attvalue for="cabinet life" value="159"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="65.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="65.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.12706615"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="2.4714627"/>
+        <viz:position x="454.45602" y="-146.08655"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="27" label="Lubbers I">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Ruud Lubbers"/>
+          <attvalue for="cabinet life" value="1348"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="81.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="81.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.17290711"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="72.45422"/>
+        <viz:position x="-125.28885" y="670.7524"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="28" label="Lubbers II">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Ruud Lubbers"/>
+          <attvalue for="cabinet life" value="1212"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="81.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="81.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.17290711"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="64.44946"/>
+        <viz:position x="567.64307" y="-366.10815"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="29" label="Lubbers III">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Ruud Lubbers"/>
+          <attvalue for="cabinet life" value="1749"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="103.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="103.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.14404911"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="96.05648"/>
+        <viz:position x="606.2184" y="284.23938"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="30" label="Cook I">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Wim Kok"/>
+          <attvalue for="cabinet life" value="1442"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="92.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="92.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.14664948"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="77.986916"/>
+        <viz:position x="665.09076" y="-153.31178"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="31" label="Cook II">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Wim Kok"/>
+          <attvalue for="cabinet life" value="1449"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="97.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="97.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.14664948"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="78.398926"/>
+        <viz:position x="416.7945" y="-520.5836"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="32" label="Balkenende I">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Jan Peter Balkenende"/>
+          <attvalue for="cabinet life" value="309"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="93.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="93.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.17644437"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="11.300238"/>
+        <viz:position x="-202.00981" y="-658.5937"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="33" label="Balkenende II">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Jan Peter Balkenende"/>
+          <attvalue for="cabinet life" value="1137"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="78.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="78.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.20084897"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="60.035076"/>
+        <viz:position x="237.78932" y="-627.8199"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="34" label="Balkenende III">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Jan Peter Balkenende"/>
+          <attvalue for="cabinet life" value="230"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="71.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="71.0"/>
+          <attvalue for="modularity_class" value="0"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.17290711"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="6.6504164"/>
+        <viz:position x="446.54395" y="100.189896"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="35" label="Balkenende IV">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="3"/>
+          <attvalue for="premier" value="Jan Peter Balkenende"/>
+          <attvalue for="cabinet life" value="1330"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="3"/>
+          <attvalue for="weighted indegree" value="80.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="80.0"/>
+          <attvalue for="modularity_class" value="1"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.15569064"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="71.39477"/>
+        <viz:position x="138.37521" y="429.99905"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="36" label="Rutte I">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Mark Rutte"/>
+          <attvalue for="cabinet life" value="753"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="52.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="52.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.17290711"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="37.433414"/>
+        <viz:position x="-554.35376" y="-377.2567"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="37" label="Rutte II">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="2"/>
+          <attvalue for="premier" value="Mark Rutte"/>
+          <attvalue for="cabinet life" value="1816"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="2"/>
+          <attvalue for="weighted indegree" value="79.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="79.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.11870763"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="100.0"/>
+        <viz:position x="-669.4375" y="52.45279"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="38" label="Rutte III">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="premier" value="Mark Rutte"/>
+          <attvalue for="cabinet life" value="1537"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="76.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="76.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.2124905"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="83.578476"/>
+        <viz:position x="-106.45174" y="455.09528"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+      <node id="39" label="Rutte IV">
+        <attvalues>
+          <attvalue for="type" value="Cabinet"/>
+          <attvalue for="indegree" value="4"/>
+          <attvalue for="premier" value="Mark Rutte"/>
+          <attvalue for="cabinet life" value="705"/>
+          <attvalue for="outdegree" value="0"/>
+          <attvalue for="degree" value="4"/>
+          <attvalue for="weighted indegree" value="77.0"/>
+          <attvalue for="weighted outdegree" value="0.0"/>
+          <attvalue for="weighted degree" value="77.0"/>
+          <attvalue for="modularity_class" value="2"/>
+          <attvalue for="eccentricity" value="0.0"/>
+          <attvalue for="closnesscentrality" value="0.0"/>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"/>
+          <attvalue for="betweenesscentrality" value="0.0"/>
+          <attvalue for="authority" value="0.2124905"/>
+          <attvalue for="hub" value="0.0"/>
+          <attvalue for="stat_inf_class" value="0"/>
+        </attvalues>
+        <viz:size value="34.608204"/>
+        <viz:position x="305.27548" y="-317.81586"/>
+        <viz:color r="241" g="8" b="123"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="1" target="10" weight="32.0">
+        <viz:color r="113" g="198" b="171"/>
+      </edge>
+      <edge id="1" source="2" target="10" weight="29.0">
+        <viz:color r="127" g="204" b="180"/>
+      </edge>
+      <edge id="2" source="1" target="11" weight="32.0">
+        <viz:color r="113" g="198" b="171"/>
+      </edge>
+      <edge id="3" source="2" target="11" weight="27.0">
+        <viz:color r="136" g="207" b="186"/>
+      </edge>
+      <edge id="4" source="3" target="11" weight="9.0">
+        <viz:color r="218" g="240" b="239"/>
+      </edge>
+      <edge id="5" source="4" target="11" weight="8.0">
+        <viz:color r="223" g="242" b="242"/>
+      </edge>
+      <edge id="6" source="1" target="12" weight="32.0">
+        <viz:color r="113" g="198" b="171"/>
+      </edge>
+      <edge id="7" source="2" target="12" weight="27.0">
+        <viz:color r="136" g="207" b="186"/>
+      </edge>
+      <edge id="8" source="3" target="12" weight="9.0">
+        <viz:color r="218" g="240" b="239"/>
+      </edge>
+      <edge id="9" source="4" target="12" weight="8.0">
+        <viz:color r="223" g="242" b="242"/>
+      </edge>
+      <edge id="10" source="2" target="13" weight="30.0">
+        <viz:color r="122" g="202" b="177"/>
+      </edge>
+      <edge id="11" source="1" target="13" weight="42.0">
+        <viz:color r="76" g="172" b="133"/>
+      </edge>
+      <edge id="12" source="3" target="13" weight="9.0">
+        <viz:color r="218" g="240" b="239"/>
+      </edge>
+      <edge id="13" source="2" target="14" weight="50.0">
+        <viz:color r="48" g="149" b="100"/>
+      </edge>
+      <edge id="14" source="1" target="14" weight="64.0">
+        <viz:color r="0" g="109" b="44"/>
+      </edge>
+      <edge id="15" source="3" target="14" weight="13.0">
+        <viz:color r="200" g="233" b="227" a="0.99607843"/>
+      </edge>
+      <edge id="16" source="1" target="15" weight="64.0">
+        <viz:color r="0" g="109" b="44"/>
+      </edge>
+      <edge id="17" source="3" target="15" weight="13.0">
+        <viz:color r="200" g="233" b="227" a="0.99607843"/>
+      </edge>
+      <edge id="18" source="1" target="16" weight="63.0">
+        <viz:color r="3" g="111" b="48"/>
+      </edge>
+      <edge id="19" source="4" target="16" weight="19.0">
+        <viz:color r="172" g="222" b="209"/>
+      </edge>
+      <edge id="20" source="3" target="16" weight="12.0">
+        <viz:color r="204" g="235" b="230"/>
+      </edge>
+      <edge id="21" source="1" target="17" weight="63.0">
+        <viz:color r="3" g="111" b="48"/>
+      </edge>
+      <edge id="22" source="4" target="17" weight="16.0">
+        <viz:color r="186" g="227" b="218"/>
+      </edge>
+      <edge id="23" source="3" target="17" weight="13.0">
+        <viz:color r="200" g="233" b="227" a="0.99607843"/>
+      </edge>
+      <edge id="24" source="1" target="18" weight="63.0">
+        <viz:color r="3" g="111" b="48"/>
+      </edge>
+      <edge id="25" source="2" target="18" weight="43.0">
+        <viz:color r="72" g="169" b="129"/>
+      </edge>
+      <edge id="26" source="1" target="19" weight="63.0">
+        <viz:color r="3" g="111" b="48"/>
+      </edge>
+      <edge id="27" source="1" target="20" weight="57.0">
+        <viz:color r="24" g="129" b="72"/>
+      </edge>
+      <edge id="28" source="4" target="20" weight="17.0">
+        <viz:color r="182" g="226" b="215"/>
+      </edge>
+      <edge id="29" source="3" target="20" weight="12.0">
+        <viz:color r="204" g="235" b="230"/>
+      </edge>
+      <edge id="30" source="1" target="21" weight="48.0">
+        <viz:color r="55" g="155" b="109"/>
+      </edge>
+      <edge id="31" source="4" target="21" weight="16.0">
+        <viz:color r="186" g="227" b="218"/>
+      </edge>
+      <edge id="32" source="3" target="21" weight="10.0">
+        <viz:color r="214" g="238" b="236"/>
+      </edge>
+      <edge id="33" source="5" target="21" weight="8.0">
+        <viz:color r="223" g="242" b="242"/>
+      </edge>
+      <edge id="34" source="1" target="22" weight="48.0">
+        <viz:color r="55" g="155" b="109"/>
+      </edge>
+      <edge id="35" source="4" target="22" weight="16.0">
+        <viz:color r="186" g="227" b="218"/>
+      </edge>
+      <edge id="36" source="3" target="22" weight="10.0">
+        <viz:color r="214" g="238" b="236"/>
+      </edge>
+      <edge id="37" source="2" target="23" weight="43.0">
+        <viz:color r="72" g="169" b="129"/>
+      </edge>
+      <edge id="38" source="1" target="23" weight="41.0">
+        <viz:color r="79" g="175" b="137"/>
+      </edge>
+      <edge id="39" source="6" target="23" weight="7.0">
+        <viz:color r="227" g="244" b="245"/>
+      </edge>
+      <edge id="40" source="7" target="23" weight="6.0">
+        <viz:color r="232" g="246" b="248"/>
+      </edge>
+      <edge id="41" source="1" target="24" weight="49.0">
+        <viz:color r="51" g="152" b="105"/>
+      </edge>
+      <edge id="42" source="4" target="24" weight="28.0">
+        <viz:color r="131" g="205" b="183"/>
+      </edge>
+      <edge id="43" source="1" target="25" weight="48.0">
+        <viz:color r="55" g="155" b="109"/>
+      </edge>
+      <edge id="44" source="2" target="25" weight="44.0">
+        <viz:color r="69" g="166" b="125"/>
+      </edge>
+      <edge id="45" source="7" target="25" weight="17.0">
+        <viz:color r="182" g="226" b="215"/>
+      </edge>
+      <edge id="46" source="1" target="26" weight="48.0">
+        <viz:color r="55" g="155" b="109"/>
+      </edge>
+      <edge id="47" source="7" target="26" weight="17.0">
+        <viz:color r="182" g="226" b="215"/>
+      </edge>
+      <edge id="48" source="1" target="27" weight="45.0">
+        <viz:color r="65" g="163" b="121"/>
+      </edge>
+      <edge id="49" source="4" target="27" weight="36.0">
+        <viz:color r="96" g="189" b="157"/>
+      </edge>
+      <edge id="50" source="1" target="28" weight="54.0">
+        <viz:color r="34" g="137" b="84"/>
+      </edge>
+      <edge id="51" source="4" target="28" weight="27.0">
+        <viz:color r="136" g="207" b="186"/>
+      </edge>
+      <edge id="52" source="1" target="29" weight="54.0">
+        <viz:color r="34" g="137" b="84"/>
+      </edge>
+      <edge id="53" source="2" target="29" weight="49.0">
+        <viz:color r="51" g="152" b="105"/>
+      </edge>
+      <edge id="54" source="2" target="30" weight="37.0">
+        <viz:color r="93" g="186" b="153"/>
+      </edge>
+      <edge id="55" source="4" target="30" weight="31.0">
+        <viz:color r="118" g="200" b="174"/>
+      </edge>
+      <edge id="56" source="7" target="30" weight="24.0">
+        <viz:color r="150" g="213" b="194"/>
+      </edge>
+      <edge id="57" source="2" target="31" weight="45.0">
+        <viz:color r="65" g="163" b="121"/>
+      </edge>
+      <edge id="58" source="4" target="31" weight="38.0">
+        <viz:color r="89" g="183" b="149"/>
+      </edge>
+      <edge id="59" source="7" target="31" weight="14.0">
+        <viz:color r="195" g="231" b="224"/>
+      </edge>
+      <edge id="60" source="1" target="32" weight="43.0">
+        <viz:color r="72" g="169" b="129"/>
+      </edge>
+      <edge id="61" source="8" target="32" weight="26.0">
+        <viz:color r="140" g="209" b="189"/>
+      </edge>
+      <edge id="62" source="4" target="32" weight="24.0">
+        <viz:color r="150" g="213" b="194"/>
+      </edge>
+      <edge id="63" source="1" target="33" weight="44.0">
+        <viz:color r="69" g="166" b="125"/>
+      </edge>
+      <edge id="64" source="4" target="33" weight="28.0">
+        <viz:color r="131" g="205" b="183"/>
+      </edge>
+      <edge id="65" source="7" target="33" weight="6.0">
+        <viz:color r="232" g="246" b="248"/>
+      </edge>
+      <edge id="66" source="1" target="34" weight="44.0">
+        <viz:color r="69" g="166" b="125"/>
+      </edge>
+      <edge id="67" source="4" target="34" weight="27.0">
+        <viz:color r="136" g="207" b="186"/>
+      </edge>
+      <edge id="68" source="1" target="35" weight="41.0">
+        <viz:color r="79" g="175" b="137"/>
+      </edge>
+      <edge id="69" source="2" target="35" weight="33.0">
+        <viz:color r="108" g="196" b="168"/>
+      </edge>
+      <edge id="70" source="9" target="35" weight="6.0">
+        <viz:color r="232" g="246" b="248"/>
+      </edge>
+      <edge id="71" source="4" target="36" weight="31.0">
+        <viz:color r="118" g="200" b="174"/>
+      </edge>
+      <edge id="72" source="1" target="36" weight="21.0">
+        <viz:color r="163" g="218" b="203"/>
+      </edge>
+      <edge id="73" source="4" target="37" weight="41.0">
+        <viz:color r="79" g="175" b="137"/>
+      </edge>
+      <edge id="74" source="2" target="37" weight="38.0">
+        <viz:color r="89" g="183" b="149"/>
+      </edge>
+      <edge id="75" source="4" target="38" weight="33.0">
+        <viz:color r="108" g="196" b="168"/>
+      </edge>
+      <edge id="76" source="1" target="38" weight="19.0">
+        <viz:color r="172" g="222" b="209"/>
+      </edge>
+      <edge id="77" source="7" target="38" weight="19.0">
+        <viz:color r="172" g="222" b="209"/>
+      </edge>
+      <edge id="78" source="9" target="38" weight="5.0">
+        <viz:color r="237" g="248" b="251"/>
+      </edge>
+      <edge id="79" source="4" target="39" weight="34.0">
+        <viz:color r="104" g="194" b="165"/>
+      </edge>
+      <edge id="80" source="7" target="39" weight="24.0">
+        <viz:color r="150" g="213" b="194"/>
+      </edge>
+      <edge id="81" source="1" target="39" weight="14.0">
+        <viz:color r="195" g="231" b="224"/>
+      </edge>
+      <edge id="82" source="9" target="39" weight="5.0">
+        <viz:color r="237" g="248" b="251"/>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
