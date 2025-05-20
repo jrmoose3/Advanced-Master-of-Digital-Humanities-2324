@@ -1,0 +1,1742 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.24.0202.1238                               -->
+<workbook original-version='18.1' source-build='2023.3.3 (20233.24.0202.1238)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Q6 - Disinformation recent (PP_fl_522_volume_C_AT_v01)' inline='true' name='federated.1vxjv780b5h0d91a5sgv40khoabm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='PP_fl_522_volume_C_AT_v01' name='excel-direct.1pb969u1v1124m1c63bgs09k3my0'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/geert/Dropbox/KUL/Intro to Visualization/Project/EuroBarometer/Directorate-General for Communication/PP_fl_522_volume_C_AT_v01.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1pb969u1v1124m1c63bgs09k3my0' name='Q6 - Disinformation recent' table='[&apos;Q6 - Disinformation recent$&apos;]' type='table'>
+          <columns gridOrigin='A1:H35:no:A1:H35:0' header='yes' outcome='2'>
+            <column datatype='string' name='Classification by Type' ordinal='0' />
+            <column datatype='real' name='Very often' ordinal='1' />
+            <column datatype='real' name='Often' ordinal='2' />
+            <column datatype='real' name='Sometimes' ordinal='3' />
+            <column datatype='real' name='Rarely' ordinal='4' />
+            <column datatype='real' name='Never' ordinal='5' />
+            <column datatype='real' name='Don’t know' ordinal='6' />
+            <column datatype='string' name='Type' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1pb969u1v1124m1c63bgs09k3my0' name='Q6 - Disinformation recent' table='[&apos;Q6 - Disinformation recent$&apos;]' type='table'>
+          <columns gridOrigin='A1:H35:no:A1:H35:0' header='yes' outcome='2'>
+            <column datatype='string' name='Classification by Type' ordinal='0' />
+            <column datatype='real' name='Very often' ordinal='1' />
+            <column datatype='real' name='Often' ordinal='2' />
+            <column datatype='real' name='Sometimes' ordinal='3' />
+            <column datatype='real' name='Rarely' ordinal='4' />
+            <column datatype='real' name='Never' ordinal='5' />
+            <column datatype='real' name='Don’t know' ordinal='6' />
+            <column datatype='string' name='Type' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H35:no:A1:H35:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Classification by Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Classification by Type]</local-name>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias>Classification by Type</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LNL_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Very often</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Very often]</local-name>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias>Very often</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Often</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Often]</local-name>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias>Often</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sometimes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sometimes]</local-name>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias>Sometimes</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rarely</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Rarely]</local-name>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias>Rarely</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Never</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Never]</local-name>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias>Never</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Don’t know</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Don’t know]</local-name>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias>Don’t know</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[Q6 - Disinformation recent]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LNL_RBE_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Frequent encounter' datatype='real' name='[Calculation_1128714660184379392]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Often]+[Very often]' />
+      </column>
+      <column caption='Infrequent encounter' datatype='real' name='[Calculation_1128714660185014273]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Never]+[Rarely]' />
+      </column>
+      <column datatype='string' name='[Classification by Type]' role='dimension' type='nominal' />
+      <column datatype='real' name='[Don’t know]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Never]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Often]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Rarely]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Sometimes]' role='measure' type='quantitative' />
+      <column datatype='real' name='[Very often]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Q6 - Disinformation recent' datatype='table' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+      <column-instance column='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Classification by Type]' derivation='None' name='[none:Classification by Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_1128714660184379392]' derivation='Sum' name='[sum:Calculation_1128714660184379392:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_1128714660185014273]' derivation='Sum' name='[sum:Calculation_1128714660185014273:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Don’t know]' derivation='Sum' name='[sum:Don’t know:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Never]' derivation='Sum' name='[sum:Never:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Often]' derivation='Sum' name='[sum:Often:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Rarely]' derivation='Sum' name='[sum:Rarely:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Sometimes]' derivation='Sum' name='[sum:Sometimes:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Very often]' derivation='Sum' name='[sum:Very often:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Classification by Type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;15-24&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;40-54&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;25-39&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;Rural area&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Large town / city&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;20+ years&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;55+&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;16-19 years&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;Small/medium-sized town&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' palette='blue_10_0' type='palette'>
+            <map to='#2a5783'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660184379392:qk]&quot;</bucket>
+            </map>
+            <map to='#42709e'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Very often:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]&quot;</bucket>
+            </map>
+            <map to='#5081ae'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Sometimes:qk]&quot;</bucket>
+            </map>
+            <map to='#598ab6'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Often:qk]&quot;</bucket>
+            </map>
+            <map to='#7eaed3'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660185014273:qk]&quot;</bucket>
+            </map>
+            <map to='#94c2e1'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Rarely:qk]&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Don’t know:qk]&quot;</bucket>
+            </map>
+            <map to='#b9ddf1'>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Never:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Belgium&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Q6 - Disinformation recent' id='Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241'>
+            <properties context=''>
+              <relation connection='excel-direct.1pb969u1v1124m1c63bgs09k3my0' name='Q6 - Disinformation recent' table='[&apos;Q6 - Disinformation recent$&apos;]' type='table'>
+                <columns gridOrigin='A1:H35:no:A1:H35:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Classification by Type' ordinal='0' />
+                  <column datatype='real' name='Very often' ordinal='1' />
+                  <column datatype='real' name='Often' ordinal='2' />
+                  <column datatype='real' name='Sometimes' ordinal='3' />
+                  <column datatype='real' name='Rarely' ordinal='4' />
+                  <column datatype='real' name='Never' ordinal='5' />
+                  <column datatype='real' name='Don’t know' ordinal='6' />
+                  <column datatype='string' name='Type' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Disinformation by age'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Q6 - Disinformation recent (PP_fl_522_volume_C_AT_v01)' name='federated.1vxjv780b5h0d91a5sgv40khoabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vxjv780b5h0d91a5sgv40khoabm'>
+            <column caption='Frequent encounter' datatype='real' name='[Calculation_1128714660184379392]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Often]+[Very often]' />
+            </column>
+            <column caption='Infrequent encounter' datatype='real' name='[Calculation_1128714660185014273]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Never]+[Rarely]' />
+            </column>
+            <column datatype='string' name='[Classification by Type]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Don’t know]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Never]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Often]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rarely]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sometimes]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Q6 - Disinformation recent' datatype='integer' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very often]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Q6 - Disinformation recent' datatype='table' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Classification by Type]' derivation='None' name='[none:Classification by Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1128714660184379392]' derivation='Sum' name='[sum:Calculation_1128714660184379392:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128714660185014273]' derivation='Sum' name='[sum:Calculation_1128714660185014273:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Don’t know]' derivation='Sum' name='[sum:Don’t know:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Never]' derivation='Sum' name='[sum:Never:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Often]' derivation='Sum' name='[sum:Often:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rarely]' derivation='Sum' name='[sum:Rarely:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sometimes]' derivation='Sum' name='[sum:Sometimes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Very often]' derivation='Sum' name='[sum:Very often:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[:Measure Names]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Never:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Often:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Rarely:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Very often:qk]&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Don’t know:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660185014273:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Sometimes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660184379392:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;15-24&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;20+ years&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;25-39&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;40-54&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;55+&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</column>
+            <column>[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1vxjv780b5h0d91a5sgv40khoabm].[Multiple Values]</rows>
+        <cols>([federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk] / [federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{F2F6199F-90FF-43F7-8ED2-B9B5427C73B6}' />
+    </worksheet>
+    <worksheet name='Disinformation by democracy belief'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Q6 - Disinformation recent (PP_fl_522_volume_C_AT_v01)' name='federated.1vxjv780b5h0d91a5sgv40khoabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vxjv780b5h0d91a5sgv40khoabm'>
+            <column caption='Frequent encounter' datatype='real' name='[Calculation_1128714660184379392]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Often]+[Very often]' />
+            </column>
+            <column caption='Infrequent encounter' datatype='real' name='[Calculation_1128714660185014273]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Never]+[Rarely]' />
+            </column>
+            <column datatype='string' name='[Classification by Type]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Don’t know]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Never]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Often]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rarely]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sometimes]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Q6 - Disinformation recent' datatype='integer' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very often]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Q6 - Disinformation recent' datatype='table' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Classification by Type]' derivation='None' name='[none:Classification by Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1128714660184379392]' derivation='Sum' name='[sum:Calculation_1128714660184379392:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128714660185014273]' derivation='Sum' name='[sum:Calculation_1128714660185014273:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Don’t know]' derivation='Sum' name='[sum:Don’t know:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Never]' derivation='Sum' name='[sum:Never:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Often]' derivation='Sum' name='[sum:Often:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rarely]' derivation='Sum' name='[sum:Rarely:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sometimes]' derivation='Sum' name='[sum:Sometimes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Very often]' derivation='Sum' name='[sum:Very often:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[:Measure Names]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Never:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Often:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Rarely:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Very often:qk]&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Don’t know:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660185014273:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Sometimes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660184379392:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Total &apos;Not satisfied&apos;&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Total &apos;Satisfied&apos;&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1vxjv780b5h0d91a5sgv40khoabm].[Multiple Values]</rows>
+        <cols>([federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk] / [federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{A5C00A93-43CF-42A9-ACD5-414FF6846532}' />
+    </worksheet>
+    <worksheet name='Disinformation by device used'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Q6 - Disinformation recent (PP_fl_522_volume_C_AT_v01)' name='federated.1vxjv780b5h0d91a5sgv40khoabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vxjv780b5h0d91a5sgv40khoabm'>
+            <column caption='Frequent encounter' datatype='real' name='[Calculation_1128714660184379392]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Often]+[Very often]' />
+            </column>
+            <column caption='Infrequent encounter' datatype='real' name='[Calculation_1128714660185014273]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Never]+[Rarely]' />
+            </column>
+            <column datatype='string' name='[Classification by Type]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Don’t know]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Never]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Often]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rarely]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sometimes]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Q6 - Disinformation recent' datatype='integer' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very often]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Q6 - Disinformation recent' datatype='table' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Classification by Type]' derivation='None' name='[none:Classification by Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1128714660184379392]' derivation='Sum' name='[sum:Calculation_1128714660184379392:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128714660185014273]' derivation='Sum' name='[sum:Calculation_1128714660185014273:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Don’t know]' derivation='Sum' name='[sum:Don’t know:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Never]' derivation='Sum' name='[sum:Never:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Often]' derivation='Sum' name='[sum:Often:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rarely]' derivation='Sum' name='[sum:Rarely:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sometimes]' derivation='Sum' name='[sum:Sometimes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Very often]' derivation='Sum' name='[sum:Very often:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[:Measure Names]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Never:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Often:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Rarely:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Very often:qk]&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Don’t know:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660185014273:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Sometimes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660184379392:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;PC/Laptop/Tablet&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Smartphone&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1vxjv780b5h0d91a5sgv40khoabm].[Multiple Values]</rows>
+        <cols>([federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk] / [federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{6F521F21-C842-44B1-8FC2-95FD8009FDBC}' />
+    </worksheet>
+    <worksheet name='Disinformation by education'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Q6 - Disinformation recent (PP_fl_522_volume_C_AT_v01)' name='federated.1vxjv780b5h0d91a5sgv40khoabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vxjv780b5h0d91a5sgv40khoabm'>
+            <column caption='Frequent encounter' datatype='real' name='[Calculation_1128714660184379392]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Often]+[Very often]' />
+            </column>
+            <column caption='Infrequent encounter' datatype='real' name='[Calculation_1128714660185014273]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Never]+[Rarely]' />
+            </column>
+            <column datatype='string' name='[Classification by Type]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Don’t know]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Never]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Often]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rarely]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sometimes]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Q6 - Disinformation recent' datatype='integer' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very often]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Q6 - Disinformation recent' datatype='table' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Classification by Type]' derivation='None' name='[none:Classification by Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1128714660184379392]' derivation='Sum' name='[sum:Calculation_1128714660184379392:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128714660185014273]' derivation='Sum' name='[sum:Calculation_1128714660185014273:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Don’t know]' derivation='Sum' name='[sum:Don’t know:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Never]' derivation='Sum' name='[sum:Never:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Often]' derivation='Sum' name='[sum:Often:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rarely]' derivation='Sum' name='[sum:Rarely:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sometimes]' derivation='Sum' name='[sum:Sometimes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Very often]' derivation='Sum' name='[sum:Very often:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[:Measure Names]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Never:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Often:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Rarely:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Very often:qk]&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Don’t know:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660185014273:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Sometimes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660184379392:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;High&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Low&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Medium&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1vxjv780b5h0d91a5sgv40khoabm].[Multiple Values]</rows>
+        <cols>([federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk] / [federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{78842021-48AC-432C-9FE3-C5A105A5A823}' />
+    </worksheet>
+    <worksheet name='Disinformation by occupation'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Q6 - Disinformation recent (PP_fl_522_volume_C_AT_v01)' name='federated.1vxjv780b5h0d91a5sgv40khoabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vxjv780b5h0d91a5sgv40khoabm'>
+            <column caption='Frequent encounter' datatype='real' name='[Calculation_1128714660184379392]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Often]+[Very often]' />
+            </column>
+            <column caption='Infrequent encounter' datatype='real' name='[Calculation_1128714660185014273]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Never]+[Rarely]' />
+            </column>
+            <column datatype='string' name='[Classification by Type]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Don’t know]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Never]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Often]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rarely]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sometimes]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Q6 - Disinformation recent' datatype='integer' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very often]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Q6 - Disinformation recent' datatype='table' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Classification by Type]' derivation='None' name='[none:Classification by Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1128714660184379392]' derivation='Sum' name='[sum:Calculation_1128714660184379392:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128714660185014273]' derivation='Sum' name='[sum:Calculation_1128714660185014273:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Don’t know]' derivation='Sum' name='[sum:Don’t know:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Never]' derivation='Sum' name='[sum:Never:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Often]' derivation='Sum' name='[sum:Often:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rarely]' derivation='Sum' name='[sum:Rarely:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sometimes]' derivation='Sum' name='[sum:Sometimes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Very often]' derivation='Sum' name='[sum:Very often:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[:Measure Names]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Never:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Often:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Rarely:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Very often:qk]&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Don’t know:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660185014273:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Sometimes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660184379392:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Employee&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Manual worker&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Not working&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Self-employed&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1vxjv780b5h0d91a5sgv40khoabm].[Multiple Values]</rows>
+        <cols>([federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk] / [federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{67F65D6D-D544-4FD0-B602-BA1178F1F205}' />
+    </worksheet>
+    <worksheet name='Disinformation by occupation (2)'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Q6 - Disinformation recent (PP_fl_522_volume_C_AT_v01)' name='federated.1vxjv780b5h0d91a5sgv40khoabm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1vxjv780b5h0d91a5sgv40khoabm'>
+            <column caption='Frequent encounter' datatype='real' name='[Calculation_1128714660184379392]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Often]+[Very often]' />
+            </column>
+            <column caption='Infrequent encounter' datatype='real' name='[Calculation_1128714660185014273]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Never]+[Rarely]' />
+            </column>
+            <column datatype='string' name='[Classification by Type]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Don’t know]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Never]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Often]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Rarely]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Sometimes]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.false...column caption='Q6 - Disinformation recent' datatype='integer' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Very often]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='Q6 - Disinformation recent' datatype='table' name='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Classification by Type]' derivation='None' name='[none:Classification by Type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1128714660184379392]' derivation='Sum' name='[sum:Calculation_1128714660184379392:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_1128714660185014273]' derivation='Sum' name='[sum:Calculation_1128714660185014273:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Don’t know]' derivation='Sum' name='[sum:Don’t know:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Never]' derivation='Sum' name='[sum:Never:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Often]' derivation='Sum' name='[sum:Often:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rarely]' derivation='Sum' name='[sum:Rarely:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sometimes]' derivation='Sum' name='[sum:Sometimes:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Very often]' derivation='Sum' name='[sum:Very often:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[:Measure Names]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[__tableau_internal_object_id__].[cnt:Q6 - Disinformation recent_E98FA37279214044BC0B090DB2FAC241:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Never:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Often:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Rarely:qk]&quot;' />
+                <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Very often:qk]&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Don’t know:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660185014273:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Sometimes:qk]&quot;</bucket>
+              <bucket>&quot;[federated.1vxjv780b5h0d91a5sgv40khoabm].[sum:Calculation_1128714660184379392:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Large town / city&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Rural area&quot;' />
+              <groupfilter function='member' level='[none:Classification by Type:nk]' member='&quot;Small/medium-sized town&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Low&quot;</bucket>
+              <bucket>&quot;Medium&quot;</bucket>
+              <bucket>&quot;High&quot;</bucket>
+              <bucket>&quot;Large town / city&quot;</bucket>
+              <bucket>&quot;Small/medium-sized town&quot;</bucket>
+              <bucket>&quot;Rural area&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</column>
+            <column>[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1vxjv780b5h0d91a5sgv40khoabm].[Multiple Values]</rows>
+        <cols>([federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk] / [federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{F99DF095-75B8-4555-8568-D0E6A7362D8E}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' name='Disinformation by age'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Age 1:nk]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Age 2:nk]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Age 3:nk]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Age:nk]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:F1:nk]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Gender:nk]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D9A8A0E3-6280-4852-82C3-04067707271A}' />
+    </window>
+    <window class='worksheet' name='Disinformation by education'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{212B0765-43C5-4133-9033-53D046EA7BA2}' />
+    </window>
+    <window class='worksheet' name='Disinformation by democracy belief'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{78EE68DD-1307-4EED-9B59-469987E6599B}' />
+    </window>
+    <window class='worksheet' name='Disinformation by device used'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{CE1DA185-B61F-42D2-B272-EEA1904C0F19}' />
+    </window>
+    <window class='worksheet' name='Disinformation by occupation'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6994EEF2-59F7-405F-BDA8-B6A3241F1A75}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Disinformation by occupation (2)'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[:Measure Names]</field>
+            <field>[federated.1vxjv780b5h0d91a5sgv40khoabm].[none:Classification by Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{432F6F83-68A0-45FE-8765-2DD2AC8DA5B4}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Disinformation by age' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Disinformation by democracy belief' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Disinformation by device used' width='192'>
+      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
+      8VwXAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Disinformation by education' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Disinformation by occupation' width='192'>
+      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
+      8AAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Disinformation by occupation (2)' width='192'>
+      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
+      jBCnbegA+AJhZmfDj78KjbkcIV5Nz3JGvtJ4IeEj8PgsYyJXgYSYNNN22WqMFoBc1CDweOXL
+      BXfhaRIA4WkSAOFpEgDhaRIA4WkSAOFpEgDhaRIA4WkSAOFpEgDhaRIA4WkSAOFpEgDhaRIA
+      4WkSAOFprxEAh9/88v/JneLFG+01GmIGqGoQy7KkKX5IJzXFj3wX9RObz9/+pnjLHm3un4xl
+      Pr4B++gBMB380SCtdkua4ockTfHDe7EpXndGXxi6rmMYR7WMHgAjxAcffDjy5kKcB/IkWHia
+      BEB4mgRAeJoEQHiaBEB4mgRAeJoEQHiaBEB4mgRAeJoEQHiaBEB4mgRAeJoEQHiaBEB42ugB
+      sFp88qtPuHP30RjLEeJ0jRwAt11h+sYPiAbkICLeXCOvXiUyRXn59/Rsuc2YeHONvnq1ID/8
+      kz8eYylCnD7FfdzZ3ev16Ha7rzVYu90mHA5jOy49a7Sm5ZChoihHzdiqquK4LuXWaHcDjAcN
+      fLr6dCyA3XILZ4Rm9njYTzToe26svVKdbn/4pvtIyE82GX3aDO/3+xnYLuYIjd6qAkHjqJ4n
+      tfVMm2ZvtL7sqejzt52vt/s0u8PPv66pzCTDz9XV6vQ5qDZHqutiLo2iKE/XmOO6dM3R1ljQ
+      UFAVBcdxvgnAOFSrVZLJ5FjGsm37tZqoJzmWqqojN8Q/q9/vY1kW4XD4u3/4FYxzP8dpnHWN
+      e41N+Bmsy+7mKpu7B5yUskaj8dItNU174Yjksru9RX+Ej0nRNI1GucjaZmGkv/4vjqUoCuXi
+      Dg8eLmOO/gkkJ3Jdk0f37lNpdE78/2HmzLH6bG3vnjj338U2eyw/WqLTH/0TPp6ty+63uHfv
+      HuX6yfv1OoqFDda29k7cz2az8dLHXNM0tI8//vjjcRXS6/UIBoPPfMfloFwnQJfGQKW4vY4R
+      jlLa2aDctmjVDrn75RdokRSxcPDYeIVCgYCmsLy+jjNo8vnXG8xMJylX6tQPC5hqiF69yMZe
+      BZ9PA9vCdmyWHi0TTURYX17F1gKEgzp37z1gNjeL6pg8XNkkEfHxaGWNZqOOqfholQvUuyZ3
+      fvspWjhMs9qkWipQrjWoNjqkErHnaiseHLK4uIDZ63BYqtKpHdAwVZxOleWtA0J+AxWb/sBi
+      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
+      TkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
