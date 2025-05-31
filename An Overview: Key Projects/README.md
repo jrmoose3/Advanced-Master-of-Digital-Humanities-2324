@@ -7,7 +7,7 @@ Coursework for the Advanced Master's of Digital Humanities was a mixture of writ
 4. ISI_Final Presentation: Group project surrounding Mondial database. Final Powerpoint presentation highlighting results. <br>
 5. ISI_Final Report: Report tied to "ISI_Final Presentation".<br>
 6. Management & Information Technology_Final Essay: A research paper highlighting some common digitization problems associated with small and large research institutions.
-7. Thesis: Final thesis submitted for the completition of the Master. Title: "Literary Wayfinding: Mapping Contested Space in Marlon James's _A Brief History of Seven Killings_." Awarded 17/20.<br>
+7. Thesis: Final thesis submitted for the completion of Master degree. Title, "Literary Wayfinding: Mapping Contested Space in Marlon James's _A Brief History of Seven Killings_." Awarded 17/20.<br>
 8. Thesis_Defense: Presentation given in conjunction with the thesis submission.
 <br>
 <br>
