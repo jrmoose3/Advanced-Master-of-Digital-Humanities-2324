@@ -1,7 +1,7 @@
 Coursework for the Advanced Master's of Digital Humanities was a mixture of written tests, weekly assignments, research papers, and group projects. Some of my more major output is available for view in this Overview folder.
 <br>
 <br>
-1. Design Thinking & Making_Final Project: A design project related to KU Leuven's library. Dealing with data visualization and data physicalization. <br>
+1. Design_Thinking_&_Making_Final_Project: A design project related to KU Leuven's library. Dealing with data visualization and data physicalization. <br>
 2. Digital Cultural Heritage_Final Essay: A research paper on hypothetical digitization practices for the archives of Anthony Hecht at Emory University.<br>
 3. Historical Data Management_Final Presentation: A powerpoint presentation highlighting a database and network analysis I created.
 4. ISI_Final Presentation: Group project surrounding Mondial database. Final Powerpoint presentation highlighting results. <br>
